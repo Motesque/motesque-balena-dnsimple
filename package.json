@@ -1,6 +1,6 @@
 {
   "name": "motesque-balena-dnsimple",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple script to create dns records for each device managed by balena.io",
   "main": "index.js",
   "scripts": {
@@ -16,13 +16,12 @@
     "url": "https://github.com/Motesque/motesque-balena-dnsimple/issues"
   },
   "homepage": "https://github.com/Motesque/motesque-balena-dnsimple#readme",
-
   "dependencies": {
     "balena-sdk": "^11.1.0",
     "dnsimple": "^2.8.0",
     "docopt": "^0.6.2"
   },
   "bin": {
-   "motesque-balena-dnsimple": "./index.js"
-   }
+    "motesque-balena-dnsimple": "./index.js"
+  }
 }

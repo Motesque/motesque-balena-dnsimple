@@ -151,7 +151,7 @@ function log_type(type, msg) {
   // simple mechanism to mimic python style logging
   const _date  = new Date().toISOString().replace(/T/, ' ').replace(/\./, ',').replace(/Z/, '');
   const _time  = "";
-  console.log(`${_date} ${_time}${type} file="${__fileName}:0" ${msg}`)
+  console.log(`${_date} ${_time}${type} file="${__fileName}:0" ${msg}\r\n`)
 }
 async function main() {
 
